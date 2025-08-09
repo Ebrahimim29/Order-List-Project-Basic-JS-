@@ -1,0 +1,61 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: gray;
+}
+h2{
+    font-weight: bolder;
+    text-align: center;
+    margin-top: 1rem;
+}
+.card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 300px;
+    width: 600px;
+    background-color: white;
+    border-radius: 100px;
+    margin-top: 2rem;
+    margin-left: auto;
+    margin-right: auto;
+    box-shadow: 10px 20px 50px red;
+}
+.btn{
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+.btn1{
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: yellowgreen;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.btn1:hover{
+    color: blue;
+    background-color: blueviolet;
+}
+.order-box{
+    width: 500px;
+    height: 200px;
+    background-color: rgba(0, 255, 255, 0.137);
+    border-radius: 20px;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    margin: 2rem auto;
+    box-shadow: 1rem 1rem 60px yellow;
+}
+#ordersUl{
+    list-style: decimal;
+    direction: rtl;
+    
+}
