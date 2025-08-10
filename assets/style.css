@@ -4,14 +4,14 @@
     box-sizing: border-box;
 }
 body{
-    background-color: gray;
+    background-color: rgba(128, 128, 128, 0.171);
 }
 h2{
     font-weight: bolder;
     text-align: center;
     margin-top: 1rem;
 }
-.card{
+/* .card{
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -25,7 +25,23 @@ h2{
     margin-left: auto;
     margin-right: auto;
     box-shadow: 10px 20px 50px red;
+} */
+.card{
+   margin-top: 25px;
+   background: #fef9dc;
+   padding: 20px;
+   width: 550px;
+   margin: 30px auto;
+   border-radius: 10px;
+   font-size: 20px;
+   text-align: center;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   gap: 2rem;
 }
+
 .btn{
     display: flex;
     gap: 1rem;
@@ -44,18 +60,36 @@ h2{
     background-color: blueviolet;
 }
 .order-box{
-    width: 500px;
-    height: 200px;
-    background-color: rgba(0, 255, 255, 0.137);
-    border-radius: 20px;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    margin: 2rem auto;
-    box-shadow: 1rem 1rem 60px yellow;
+   margin-top: 25px;
+   background: #fef9dc;
+   padding: 18px;
+   width: 350px;
+   margin: 20px auto;
+   border-radius: 10px;
+   font-size: 17px;
+   text-align: left;
+   box-shadow: 0 0 8px rgba(0, 0, 0, 0.1);
+   display: flex;
+   flex-direction: column;
+   align-items: flex-start;
 }
+
 #ordersUl{
     list-style: decimal;
     direction: rtl;
-    
+
+}
+.drink{
+    background-color: rgba(165, 42, 42, 0.356);
+    font-size: 1rem;
+    color: magenta;
+}
+.error{
+    color: red;
+    font-weight: bolder;
+    background-color: yellowgreen;
+}
+.dark{
+    background: linear-gradient(to right,black,blue);
+    color: white;
 }
